@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">ADSAPP</string>
+    <string name="roomname">Enter RoomName</string>
+    <string name="username">Enter UserName</string>
+    <string name="buttonjoin">JOIN</string>
 </resources>

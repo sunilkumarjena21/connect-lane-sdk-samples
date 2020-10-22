@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_home_mobile"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -17,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="parent">
+        app:layout_constraintRight_toLeftOf="parent"
+        android:background="@drawable/ic_background_semi">
 
         <Button
             android:id="@+id/button4"
@@ -30,6 +32,7 @@
             android:layout_marginEnd="162dp"
             android:layout_marginBottom="342dp"
             android:onClick="onButtonClick"
+            android:background="@color/buttonColor"
             android:text="Join"
             />
 
@@ -39,7 +42,8 @@
             android:layout_height="35dp"
             android:layout_below="@+id/conferenceName"
             android:layout_marginTop="10dp"
-
+            android:background="@drawable/shape_rect_filled_white"
+            android:hint="@string/username"
             android:imeOptions="actionDone"
             android:inputType="text"
             android:maxLines="1"
@@ -53,7 +57,8 @@
             android:layout_below="@+id/applogo"
             android:layout_centerInParent="true"
             android:layout_marginTop="30dp"
-
+            android:background="@drawable/shape_rect_filled_white"
+            android:hint="@string/roomname"
             android:imeOptions="actionNext"
             android:maxLines="1"
             android:singleLine="true"
@@ -66,6 +71,7 @@
             android:layout_below="@+id/brandlogo"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
+            android:background="@drawable/img_logo_text"
             />
 
         <ImageView
